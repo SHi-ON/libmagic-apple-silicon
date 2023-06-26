@@ -14,7 +14,7 @@ $ pip install python-magic-bin
 $ brew install libmagic
 ```
 
-**Step 3)** Copy the `magic` directory from [the repository](https://github.com/SHi-ON/libmagic-apple-silicon) to the directory where your Python environment libraries are located. Run `$ pip list -v` to be able to locate the path to your libraries directory.
+**Step 3)** Copy the `magic` directory from [the repository](https://github.com/SHi-ON/libmagic-apple-silicon) to the directory where your Python environment libraries are located. Run `$ pip list -v` to be able to locate the path to your libraries directory. As an explanation on the origin of the `magic` directory, it has been derived from an Intel-based Mac with `python-magic` installed via pip.
 
 **Step 4)** Copy `libmagic.dylib` from the `lib` directory in the libmagic that Homebrew has installed to the `magic/libmagic` directory in Step 3 to replace the `YOUR_libmagic.dylib`. Please note that you need to copy the original file, not the alias (symbolic link).
  Run `$ brew list -v` to help you locate the path to the library installed by Homebrew. A typical path looks like `/usr/local/Cellar/libmagic/5.44/lib`.
