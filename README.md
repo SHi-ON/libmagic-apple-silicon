@@ -1,4 +1,4 @@
-# libmagic-mac
+# libmagic For Apple Silicon
 
 Install `libmagic` on Apple Silicon Macs based on M1 or M2 (or Mx):
 
