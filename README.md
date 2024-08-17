@@ -2,6 +2,8 @@
 
 Install `libmagic` on Apple Silicon Macs based on M1 or M2 (or Mx):
 
+This repository originated from [this answer](https://stackoverflow.com/a/76560266/3782119) on Stack Overflow.
+
 **Step 1)** First, try to uninstall any other already-installed `libmagic` libraries and then install `python-magic-bin`:
 ```bash
 $ pip uninstall python-magic
